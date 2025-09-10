@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: azure;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+      .upload{
+      width: 300px;
+      padding: 12px;
+      margin-top: 15px;
+      background: #4f46e5;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 220px;
+      animation: fadeUp 1s ease forwards;
+     }
+
+     @keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+    </style>
+</head>
+<body>
+    <Button class="upload">Upload Files/Photos</Button>
+<a href="file-format.html">
+    <button class="upload">Read project file format</button>
+    </a>
+</body>
+</html>

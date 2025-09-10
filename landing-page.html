@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            background: url('./pic/back-g.jpg');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .authority-login {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(196, 247, 249);
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+
+        .authority-login h2 {
+            font-weight: lighter;
+
+            color: rgb(0, 0, 0);
+        }
+
+        .user-login {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(196, 247, 249);
+            border-radius: 12px;
+            margin-top: 80px;
+        }
+
+        .user-login h2 {
+            font-weight: lighter;
+
+            color: rgb(0, 0, 0);
+        }
+
+        .ngo-login {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(196, 247, 249);
+            border-radius: 12px;
+            margin-top: 80px;
+        }
+
+        .ngo-login h2 {
+            font-weight: lighter;
+
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <h1>Welcome to our project</h1>
+
+        <h2>Please Log in as</h2>
+
+        <a href="./auditor-login.html">
+            <div class="authority-login">
+                <img src="./pic/owner.png" height="70px" width="70px">
+                <h2>Log In as Auditor</h2>
+            </div>
+        </a>
+
+        <a href="./ngo-login.html">
+            <div class="ngo-login">
+                <img src="./pic/group.png" height="70px" width="70px">
+                <h2>Log In as NGO/Community</h2>
+            </div>
+        </a>
+
+       <a href="./user-login.html">
+        <div class="user-login">
+            <img src="./pic/user.png" height="70px" width="70px">
+            <h2>Log In as User</h2>
+        </div>
+        </a>
+    </div>
+
+</body>
+
+</html>

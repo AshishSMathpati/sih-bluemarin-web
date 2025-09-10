@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    flex: 1; /* Take half width */
+      background: url('pic/grove-summer.jpg')
+        no-repeat center center;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.signin-box{
+    
+  background: rgba(255, 255, 255, 0.6);
+  padding: 30px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 1150px;
+  height: 620px;
+}
+
+.signin-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .signin-box input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+
+    .signin-box button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 15px;
+      background: #4f46e5;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .signin-box button:hover {
+      background: #4338ca;
+    }
+
+    
+
+    </style>
+</head>
+<body>
+    
+<div class="signin-box">
+    <h2>Welcome! Please Log in</h2>
+ <form>
+      <input type="text" placeholder="Username" required >
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Sign In</button>
+    </form>
+</div>
+
+</body>
+</html>
